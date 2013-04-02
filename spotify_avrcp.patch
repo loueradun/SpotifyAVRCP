@@ -62,7 +62,7 @@
 +
 +	invoke-virtual {v4, v5, v6}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 +
-+	iget-object v5, p0, Lcom/spotify/mobile/android/service/ad;->a:Landroid/app/Service;
++	iget-object v5, p0, Lcom/spotify/mobile/android/service/x;->a:Landroid/app/Service;
 +
 +	invoke-virtual {v5, v4}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
 +
